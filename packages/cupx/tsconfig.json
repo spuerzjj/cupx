@@ -1,0 +1,19 @@
+{
+	"include": ["src/index.ts"],
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"rootDir": "./src",
+		"moduleResolution": "Node",
+		"declaration": true,
+		"declarationDir": "./dist/types" /* Specify the output directory for generated declaration files. */,
+		// "declarationMap": true /* Create sourcemaps for d.ts files. */,
+		"emitDeclarationOnly": true /* Only output d.ts files and not JavaScript files. */,
+		// "outFile": "./dist/types/cupx" /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */,
+		"esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+		"forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+		"strict": true /* Enable all strict type-checking options. */,
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */
+	},
+	"exclude": ["node_modules", "dist"]
+}

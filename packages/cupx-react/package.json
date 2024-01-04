@@ -1,0 +1,21 @@
+{
+    "name": "cupx-react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/cupx-react.d.ts",
+    "scripts": {
+        "build": "rollup -c ./scripts/rollup.config.js",
+        "dev": "rollup -c ./scripts/rollup.config.js -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {},
+    "peerDependencies": {
+        "cupx": "^1.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {}
+}

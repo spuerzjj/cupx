@@ -1,0 +1,21 @@
+{
+    "name": "cupx-local",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "types": "dist/types/cupx-local.d.ts",
+    "scripts": {
+        "build": "rollup -c ./rollup.config.js",
+        "dev": "rollup -c ./rollup.config.js -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+        "cupx": "^1.0.0"
+    },
+    "dependencies": {
+        "@types/js-cookie": "^3.0.6",
+        "js-cookie": "^3.0.5"
+    }
+}
